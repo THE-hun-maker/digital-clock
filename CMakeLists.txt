@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.0)
+# CMakeLists.txt
+cmake_minimum_required(VERSION 3.10)
 
-project(digital-clock)
+# Set the project name
+project(DigitalClock)
 
-set(CMAKE_CXX_STANDARD 11)
-set(SOURCES src/main.cpp)
-
-add_executable(digital-clock ${SOURCES})
+# Add the executable
+add_executable(DigitalClock main.cpp)
